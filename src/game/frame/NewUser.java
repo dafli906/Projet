@@ -72,7 +72,7 @@ public class NewUser extends Window{
     public void draw(Graphics2D graph) {
         graph.setBackground(Game.Colors.darkBlue);
         graph.setFont(textFont);
-        graph.setColor(Color.BLACK);
+        graph.setColor(Color.WHITE);
         graph.drawString("Username",200,200);
         graph.fillRect(390,170,350,45); 
         graph.setColor(Color.BLACK);
